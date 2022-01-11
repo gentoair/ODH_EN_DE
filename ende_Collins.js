@@ -1,4 +1,4 @@
-﻿/* global api */
+/* global api */
 class ende_Collins {
     constructor(options) {
         this.options = options;
@@ -39,7 +39,7 @@ class ende_Collins {
 
         let content = doc.querySelector('.content') || '';
         let pron = doc.querySelector('.form.pron.type-') || '';
-        if (!pron) return null;
+        /* if (!pron) return null; */
         if (!content) return null;
         let css = this.renderCSS();
         return css + pron.innerHTML + content.innerHTML;
