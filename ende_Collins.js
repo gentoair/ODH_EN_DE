@@ -55,6 +55,11 @@ class ende_Collins {
                     font-size: 100%;
                     font-weight: bold;
                 }
+                 .lbl.type-syn {
+                    font-style: italic;
+                    font-size: 70%;
+                    color: #262323;
+                }
                 .cit.type-translation.quote {
                     font-style: normal;
                     font-weight: bold;
