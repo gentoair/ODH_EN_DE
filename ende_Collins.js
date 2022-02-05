@@ -60,7 +60,7 @@ class ende_Collins {
                     font-size: 90%;
                     color: #262323;
                 }
-                .cit.type-translation.quote {
+                .sense.cit.type-translation.quote {
                     font-style: normal;
                     font-weight: bold;
                     color: #be1616;
