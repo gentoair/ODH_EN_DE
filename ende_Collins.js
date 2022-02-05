@@ -62,6 +62,7 @@ class ende_Collins {
                 }
                 div.sense > span.cit.type-translation.quote {
                     font-style: normal;
+                    font-weight: bold;
                     font-size: 120%;
                     color: #be1616;
                 }
@@ -72,7 +73,7 @@ class ende_Collins {
                 }
                 div.sense > span.lbl.type-misc {
                     font-style: italic;
-                    color: #1683be;
+                    color: #262323;
                 }
                 .colloc {
                     font-style: italic;
