@@ -63,11 +63,11 @@ class ende_Collins {
                 .cit.type-translation.quote {
                     font-style: normal;
                     font-weight: bold;
-                    color: #262323;
-                }
-                .cit.type-example.cit.type-translation. quote {
-                    font-style: normal;
                     color: #be1616;
+                }
+                .cit.type-example.cit.type-translation.quote {
+                    font-style: normal;
+                    color: #262323;
                 }
                 .quote {
                     font-style: normal;
