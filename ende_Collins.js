@@ -67,11 +67,10 @@ class ende_Collins {
                 }
                 div.cit.type-example > span.cit.type-translation.quote {
                     font-style: normal;
-                    font-weight: bold;
                     color: #262323;
                 }
-                div.sense > span.lbl.type-misc {
-                    font-style: italic;
+                .lbl.type-misc .quote {
+                    font-style: normal;
                     color: #1683be;
                 }
                 .colloc {
