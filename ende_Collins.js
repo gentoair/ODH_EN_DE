@@ -60,16 +60,16 @@ class ende_Collins {
                     font-size: 90%;
                     color: #262323;
                 }
-                .cit.type-translation.quote .sense {
+                .sense.cit.type-translation.quote {
                     font-style: normal;
-                    font-size: 120%;
+                    font-weight: bold;
                     color: #be1616;
                 }
-                .cit.type-translation.quote .cit.type-example {
+                .cit.type-example.cit.type-translation.quote {
                     font-style: normal;
                     color: #262323;
                 }
-                .lbl.type-misc .quote {
+                .quote {
                     font-style: normal;
                     color: #1683be;
                 }
