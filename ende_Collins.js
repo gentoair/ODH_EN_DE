@@ -60,18 +60,28 @@ class ende_Collins {
                     font-size: 90%;
                     color: #262323;
                 }
-                .cit.type-translation.quote {
+                div.hom > span.gramGrp.hi.rend-sc {
                     font-style: normal;
                     font-weight: bold;
+                }
+                div.sense > span.bold {
+                    font-style: normal;
+                    font-weight: bold;
+                }
+                div.sense > span.cit.type-translation.quote {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 120%;
                     color: #be1616;
                 }
-                .cit.type-example.cit.type-translation.quote {
+                div.cit.type-example > span.cit.type-translation.quote {
                     font-style: normal;
+                    font-weight: bold;
                     color: #262323;
                 }
-                .quote {
-                    font-style: normal;
-                    color: #1683be;
+                div.sense > span.lbl.type-misc {
+                    font-style: italic;
+                    color: #262323;
                 }
                 .colloc {
                     font-style: italic;
