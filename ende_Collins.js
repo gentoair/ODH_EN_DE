@@ -60,14 +60,6 @@ class ende_Collins {
                     font-size: 90%;
                     color: #262323;
                 }
-                div.hom > span.gramGrp.hi.rend-sc {
-                    font-style: normal;
-                    font-weight: bold;
-                }
-                div.sense > span.bold {
-                    font-style: normal;
-                    font-weight: bold;
-                }
                 div.sense > span.cit.type-translation.quote {
                     font-style: normal;
                     font-weight: bold;
