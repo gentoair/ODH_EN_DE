@@ -74,7 +74,7 @@ class ende_Collins {
                     font-size: 120%;
                     color: #be1616;
                 }
-                .quote {
+                .de.quote {
                     font-style: normal;
                     font-weight: bold;
                     color: #262323;
