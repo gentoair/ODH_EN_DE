@@ -103,7 +103,7 @@ class ende_Collins {
                     color: #000;
                     /*text-decoration: none;*/
                 }
-                * {
+                {
                     word-wrap: break-word;
                     box-sizing: border-box;
                 }
