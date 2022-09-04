@@ -38,11 +38,11 @@ class ende_Collins {
         }
 
         let content = doc.querySelector('.content') || '';
-        let pron = doc.querySelector('.form.pron.type-') || '';
+        let pron = doc.querySelector('.form.pron') || '';
         if (!content) return null;
         let css = this.renderCSS();
         if (!pron) return css + content.innerHTML; 
-        return css + pron.innerHTML + content.innerHTML;
+        else return css + pron.innerHTML + content.innerHTML;
     }
 
     renderCSS() {
@@ -60,26 +60,26 @@ class ende_Collins {
                     font-size: 90%;
                     color: #262323;
                 }
-                div.hom > span.gramGrp.hi.rend-sc {
+                .pos {
                     font-style: normal;
                     font-weight: bold;
                 }
-                div.sense > span.bold {
+                .bold {
                     font-style: normal;
                     font-weight: bold;
                 }
-                div.sense > span.cit.type-translation.quote {
+                .quote.ref {
                     font-style: normal;
                     font-weight: bold;
                     font-size: 120%;
                     color: #be1616;
                 }
-                div.cit.type-example > span.cit.type-translation.quote {
+                .quote {
                     font-style: normal;
                     font-weight: bold;
                     color: #262323;
                 }
-                div.sense > span.lbl.type-misc {
+                .lbl.type-misc {
                     font-style: italic;
                     color: #262323;
                 }
@@ -95,7 +95,7 @@ class ende_Collins {
                     margin: 5px 0;
                     background-color: #f6f6f6;
                 }
-                .sense .re {
+                .sense.re {
                     font-size: 100%;
                     margin-left: 0;
                 }
@@ -103,7 +103,7 @@ class ende_Collins {
                     color: #000;
                     /*text-decoration: none;*/
                 }
-                {
+                * {
                     word-wrap: break-word;
                     box-sizing: border-box;
                 }
