@@ -48,10 +48,10 @@ class ende_Collins {
     renderCSS() {
         let css = `
             <style>
-                .pronIPASymbol
+                .pronIPASymbol {
                     display:none;
                 }
-                .copyright{
+                .copyright {
                     display:none;
                 }
                 .orth {
