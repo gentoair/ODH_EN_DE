@@ -48,6 +48,9 @@ class ende_Collins {
     renderCSS() {
         let css = `
             <style>
+                .IPA.Pronunciation.Guide
+                    display:none;
+                }
                 .copyright{
                     display:none;
                 }
