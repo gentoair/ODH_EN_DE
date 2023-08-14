@@ -38,7 +38,7 @@ class ende_Collins {
         }
 
         let content = doc.querySelector('.content') || '';
-        let pron = doc.querySelector("span.pron#text") || '';
+        let pron = doc.querySelector('.form.pron') || '';
         if (!content) return null;
         let css = this.renderCSS();
         if (!pron) return css + content.innerHTML; 
