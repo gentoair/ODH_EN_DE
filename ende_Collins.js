@@ -80,11 +80,10 @@ class ende_Collins {
                 .cit.type-example {
                     font-style: normal;
                     font-weight: bold;
-                    color: #a7b1c8;
+                    color: #4267B2;
                 }
                 .cit.type-translation {
                     font-style: normal;
-                    font-weight: bold;
                     color: #262323;
                 }
                 .lbl.type-misc {
